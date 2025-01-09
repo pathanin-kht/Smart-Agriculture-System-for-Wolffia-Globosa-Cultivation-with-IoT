@@ -7,7 +7,7 @@ This project develops a smart agriculture system for cultivating *Wolffia globos
 - **Temperature and Humidity Control**: Uses sensors to monitor temperature and humidity for optimal growth of *Wolffia globosa*.
 - **Water Quality Monitoring**: Monitors the turbidity of water to prevent water spoilage.
 - **Gas Sensor**: Uses an MQ135 gas sensor to monitor harmful gases such as ammonia that could harm the growth of *Wolffia globosa*.
-- **Water Hyacinth Quality Monitoring**: Uses ESP32 Camera and OpenCV to analyze and count the number of *Wolffia globosa* to assess their health.
+- **Wolffia globosa Quality Monitoring**: Uses ESP32 Camera and OpenCV to analyze and count the number of *Wolffia globosa* to assess their health.
 - **Real-time Notifications**: The system sends notifications through a website if any abnormalities are detected in the environment.
 - **Prediction System**: Implements RNN-LSTM model to forecast environmental changes like temperature and humidity.
 
