@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wolffia IoT Project Data and Predictions</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Wolffia Globosa Data and Predictions</h1>
+
+<div class="section">
+  <h2>Latest Sensor Data</h2>
+  <div class="sensor-card">
+      <h3>Temperature</h3>
+      <div class="sensor-content">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/441/445/original/temperature-vector-icon.jpg" alt="Temperature Icon" class="sensor-icon">
+          <p id="latestTemperature" class="sensor-value">Loading...</p>
+      </div>
+  </div>
+  <div class="sensor-card">
+      <h3>Humidity</h3>
+      <div class="sensor-content">
+          <img src="https://static.vecteezy.com/system/resources/previews/000/436/626/original/vector-humidity-vetor-icon.jpg" alt="Humidity Icon" class="sensor-icon">
+          <p id="latestHumidity" class="sensor-value">Loading...</p>
+      </div>
+  </div>
+  <div class="sensor-card">
+      <h3>MQ135 Value</h3>
+      <div class="sensor-content">
+          <img src="https://th.bing.com/th/id/OIP.lcWM0omI1LUdPEoDJgoFtgHaHa?rs=1&pid=ImgDetMain" alt="MQ135 Icon" class="sensor-icon">
+          <p id="latestMQ135" class="sensor-value">Loading...</p>
+      </div>
+  </div>
+</div>
+
+  <button class="button" id="showAllDataBtn">Show All Data</button>
+
+  <div class="section" id="sensorDataSection" style="display: none;">
+    <h2 style="display: none;">Sensor Data</h2>
+    <table id="sensorTable">
+      <thead>
+        <tr>
+          <th>Temperature (°C)</th>
+          <th>Humidity (%)</th>
+          <th>MQ135 Value</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+
+  <button class="button" id="showPredictionBtn">Show Predicted Values</button>
+
+  <div class="section" id="predictionSection" style="display: none;">
+    <h2 style="display: none;">Predicted Values</h2>
+    <table id="predictionTable">
+      <thead>
+        <tr>
+          <th>Prediction No.</th>
+          <th>Temperature (°C)</th>
+          <th>Humidity (%)</th>
+          <th>MQ135 Value</th>
+        </tr>
+      </thead>
+      <tbody id="predictionBody">
+      </tbody>
+    </table>
+  </div>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
