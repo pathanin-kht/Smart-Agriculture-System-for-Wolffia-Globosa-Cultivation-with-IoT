@@ -26,11 +26,9 @@ This project develops a smart agriculture system for cultivating *Wolffia globos
 ![TestCase2](https://github.com/pathanin-kht/Smart-Agriculture-System-for-Wolffia-Globosa-Cultivation-with-IoT/blob/736d87d541431174d72bce8ea8e12a9dbc63e760/TestCase/Web_TestCase.png)
 
 ### 3. The RNN-LSTM Model
-- The model performs well with an MSE of 0.0621 and MAE of 0.2071, suggesting that it is capable of making relatively accurate predictions. These values indicate that the model has learned the underlying patterns in the data effectively, with only minor discrepancies between the predicted and actual values.
-  
 ![TestCase3](https://github.com/pathanin-kht/Smart-Agriculture-System-for-Wolffia-Globosa-Cultivation-with-IoT/blob/155b9aae17021310ce60195edbe0322ee1f3fc3d/TestCase/Model_TestCase.png)
-
-
+> The model performs well with an MSE of 0.0621 and MAE of 0.2071, suggesting that it is capable of making relatively accurate predictions. These values indicate that the model has learned the underlying patterns in the data effectively, with only minor discrepancies between the predicted and actual values.
+>
 
 ## Installation (Under development)
 This system is currently under development and is not yet operational. Updates will be provided as progress is made.
