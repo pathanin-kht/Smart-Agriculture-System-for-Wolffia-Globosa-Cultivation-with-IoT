@@ -16,6 +16,9 @@ This project develops a smart agriculture system for cultivating *Wolffia globos
 - **Software**: Python, Flask API, Firebase, OpenCV, RNN-LSTM
 
 ## Example
+> **Note:** The code is currently under development.
+>
+
 ### 1. Test Case for OpenCV to analyze and count the number of Wolffia globosa.
 ![TestCase](https://github.com/pathanin-kht/Smart-Agriculture-System-for-Wolffia-Globosa-Cultivation-with-IoT/blob/07aff3e1f6f5d0994f0c72ec86c6c15b4f9c11b0/TestCase/OpenCV_TestCase.png)
 
@@ -25,8 +28,7 @@ This project develops a smart agriculture system for cultivating *Wolffia globos
 ### 3. The RNN-LSTM Model
 - The model performs well with an MSE of 0.0622 and MAE of 0.2071, suggesting that it is capable of making relatively accurate predictions. These values indicate that the model has learned the underlying patterns in the data effectively, with only minor discrepancies between the predicted and actual values.
 
-> **Note:** The code is currently under development.
-> 
+
 
 ## Installation (Under development)
 This system is currently under development and is not yet operational. Updates will be provided as progress is made.
