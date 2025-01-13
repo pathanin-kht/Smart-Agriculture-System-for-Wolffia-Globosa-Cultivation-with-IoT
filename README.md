@@ -15,6 +15,12 @@ This project develops a smart agriculture system for cultivating *Wolffia globos
 - **Hardware**: ESP32, DHT11, MQ135, Water Turbidity Sensor, ESP32 Camera
 - **Software**: Python, Flask API, Firebase, OpenCV, RNN-LSTM
 
+## Example
+### It's a Test Case for OpenCV to analyze and count the number of Wolffia globosa.
+> **Note:** The code is currently under development.
+> 
+![TestCase](https://github.com/pathanin-kht/Smart-Agriculture-System-for-Wolffia-Globosa-Cultivation-with-IoT/blob/07aff3e1f6f5d0994f0c72ec86c6c15b4f9c11b0/TestCase/OpenCV_TestCase.png)
+
 ## Installation (Under development)
 This system is currently under development and is not yet operational. Updates will be provided as progress is made.
 
